@@ -15,6 +15,10 @@ You can install these libraries using pip:
 pip install SpeechRecognition pydub
 ```
 
+```ffmpeg
+brew install ffmpeg
+```
+
 ## Usage
 
 To use the script, simply run `speech_to_text.py` and follow the prompts:
@@ -24,6 +28,19 @@ python speech_to_text.py
 ```
 
 The script will ask you to enter the path to the input audio file, the path to the output file, and the language code for the audio file.
+
+## Example Usage
+
+: python3 speech_to_text.py  
+Please enter the path to an audio file (WAV, MP3, M4A, OGG, or FLAC):  
+: test.m4a  
+Please enter the path to the output file:  
+: test.m4a  
+Please enter the language code (e.g. en-US):  
+: en-US  
+Transcription:  
+hello can you say something for me please can you say something for me please  
+
 
 ## How It Works
 
